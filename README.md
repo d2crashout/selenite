@@ -1,5 +1,22 @@
 ## Selenite
 The better unblocked games website.
+
+## Local deploy / run commands
+This repository is a **single deployable Node.js app**.  
+It does not have separate backend and frontend services to deploy independently.
+
+```bash
+npm install
+npm start
+```
+
+By default it runs on `http://localhost:3000`.  
+Set `PORT` if your platform requires a different port:
+
+```bash
+PORT=8080 npm start
+```
+
 ## Deploy to a cloud service
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://gitlab.com/skysthelimit.dev/selenite)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/selenite-cc/selenite-old)
